@@ -36,7 +36,7 @@ public class OtaPage extends MouseActions{
 		super(driver);
 		this.driver = driver;
 		this.commonMethod = new CommonMethod(driver);
-		this.calendarActions = new CalendarActions(driver);
+		this.calendarActions = new CalendarActions(driver, wait);
 		this.mouseActions = new MouseActions(driver);
 		this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	}
