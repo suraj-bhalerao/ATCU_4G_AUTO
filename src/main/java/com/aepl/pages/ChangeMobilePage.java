@@ -91,10 +91,6 @@ public class ChangeMobilePage {
 		}
 	}
 
-	/*
-	 * TODO : Later think on this public void checkTableHeading() { // Check table
-	 * heading is as expected here and validate }
-	 */
 	public void clickEyeActionButton() {
 		logger.info("Locating the eye action button...");
 		try {
@@ -177,5 +173,4 @@ public class ChangeMobilePage {
 			throw new RuntimeException("Pagination test failed.", e);
 		}
 	}
-
 }
